@@ -53,4 +53,4 @@ waypoints[0]["name"] = "not a real place"
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 for place in waypoints:
-  print(place)
+  print(place["lat"], place["lon"], place["name"])
